@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Card({data}) {
   return (
-    <div className='w-full h-32 rounded bg-gray-100 grid grid-cols-[1fr_2fr] overflow-hidden'>
+    <div className='w-full h-32 rounded-xl bg-gray-100 grid grid-cols-[1fr_2fr] overflow-hidden'>
       <div className='h-full overflow-hidden'>
         <Image src={img} className=''/>
       </div>

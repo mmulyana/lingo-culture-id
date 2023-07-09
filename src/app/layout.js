@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`grid grid-cols-[1fr_3fr] h-full ${nunito.className}`}>
+      <body className={`container px-4 mx-auto grid grid-cols-[1fr_3fr] h-full ${nunito.className}`}>
         <Sidebar />
         <main>{children}</main>
       </body>
