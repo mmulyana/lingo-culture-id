@@ -5,7 +5,7 @@ import Card from "@/components/Card"
 
 export default function Home() {
   return (
-    <div className="h-[1200px] grid grid-cols-[2fr_1fr]">
+    <div className="h-fit pb-20 grid grid-cols-[2fr_1fr]">
       <div className="mt-16 px-6 pr-10 flex flex-col gap-3">
         <Banner />
         <Card />
