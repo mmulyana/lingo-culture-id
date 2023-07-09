@@ -49,7 +49,7 @@ export default function Sidebar() {
             <p className='text-lg'>Kuis</p>
           </Link>
 
-          <Link
+          {/* <Link
             href='/'
             className={[
               'w-full py-3 rounded-lg border-2 grid grid-cols-[1fr_8fr] gap-2 px-4 font-semibold',
@@ -68,7 +68,7 @@ export default function Sidebar() {
           >
             <Image src={img4} width={24} />
             <p className='text-lg'>Keluar</p>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
