@@ -7,14 +7,14 @@ export const data = [
     data: [
       {
         title: 'batik sidoluhur',
-        img: '/public/img/batiksidoluhur.png',
+        img: '/public/img/batiksidoluhur.jpg',
         description:
           'Batik Sida Luhur (dibaca Sido Luhur; kadang juga digabung menjadi Sidaluhur atau Sidoluhur) adalah salah satu motif batik pedalaman yang cukup populer. Sesuai dengan namanya, motif ini bermakna harapan untuk mencapai kedudukan yang tinggi dan dapat menjadi panutan masyarakat (keluhuran).',
         is_read: false,
       },
       {
         title: 'batik tujuh rupa',
-        img: '/public/img/batiktujuhrupa.png',
+        img: '/public/img/batiktujuhrupa.jpg',
         description: 'Batik Tujuh Rupa merupakan batik yang berasal dari pekalongan jawa tengah. Batik ini telah mengalami akulturasi dengan budaya tiongkok pada abad 19.  Pada batik tujuh rupa menggambarkan suasana alam dengan tambahan flora dan fauna.Motif dari batik ini memiliki makna kefasihan dan kelembutan, batik ini memberikan gambaran kehidupan penduduk jawa pesisir yang mudah beradaptasi dengan kebudayaan luar. Untuk motif alam dan tambahan berbagai ornamen seperti flora dan fauna bermakna kehidupan yang damai untuk warga sekitar.',
         is_read: false,
       },
@@ -26,13 +26,13 @@ export const data = [
       },
       {
         title: 'kencongan',
-        img: '/public/img/kencongan.png',
+        img: '/public/img/kencongan.jpg',
         description: 'Baju ini berasal dari D.I.Yogyakarta. Baju ini merupakan busana adat untuk anak laki-laki. Baju kencongan memiliki model miri dengan baju surjan namun dengan warna yang lebih terang. Baju ini diikuti dengan aksesoris seperti kain batik dengan, lonthong tritik, ikat pinggang berupa kamus songketan dengan cathok terbuat dari suwasa.',
         is_read: false,
       },
       {
         title: 'ageng',
-        img: '/public/img/ageng.png',
+        img: '/public/img/ageng.jpg',
         description: 'Baju Ageng  atau pakaian “Kepbrabon”  adalah pakaian adat Jawa yang memiliki keistimewaan dan keagungan yang tinggi. Busana Ageng biasanya dikenakan untuk upacara-upacara khusus atau upacara adat Jawa yang penting seperti pernikahan adat, rapat kerajaan, upacara keagamaan atau acara resmi lainnya. Pakaian Ageng mewakili status sosial yang tinggi dan menampilkan desain yang sangat spesifik dan dekorasi yang rumit. ',
         is_read: false,
       },
@@ -46,25 +46,25 @@ export const data = [
     data: [
       {
         title: 'king baba',
-        img: '/public/img/kingbaba.png',
+        img: '/public/img/kingbaba.jpg',
         description: 'Pakaian adat King Baba adalah pakaian adat yang digunakan oleh laki-laki dari suku Dayak. Pakaian ini terbuat dari kulit kayu kapuo yang telah dipukul-pukul hingga tersisa seratnya saja. Pakaian tersebut dijemur, dilukis dengan motif khas Suku Dayak, dan dihias dengan manik-manik berwarna jingga dan merah. King Baba merupakan pakaian yang sederhana namun memiliki nilai budaya dan keunikan tersendiri.',
         is_read: false,
       },
       {
         title: 'king bibinge',
-        img: '/public/img/kingbibinge.png',
+        img: '/public/img/kingbibinge.jpg',
         description: 'Pakaian adat Dayak terdiri dari King Baba untuk pria dan King Bibinge untuk wanita. Keduanya terbuat dari kerang dan dihiasi mutiara. King Baba lebih terbuka sedangkan King Bibinge lebih tertutup dengan pelindung dada, platform dan rok. Ada juga aksesoris seperti gelang, kalung dan bando dengan bulu buku. Kedua pakaian adat ini menampilkan keindahan dan keunikan melalui penggunaan bahan alam dan ornamen tradisional. Pakaian adat ini merupakan simbol identitas budaya suku Dayak yang kaya dan unik.',
         is_read: false,
       },
       {
         title: 'sangkarut',
-        img: '/public/img/sangkarut.png',
+        img: '/public/img/sangkarut.jpg',
         description: 'Baju Sangkarut atau Baju Basulau adalah pakaian adat suku Dayak Ngaju di Kalimantan Tengah. Baju ini berupa rompi yang dilapisi oleh kerang (sulau). Bahan yang digunakan terdiri dari serat daun nanas, daun lemba, tengang, dan nyamu. Kulit nyamu, yang merupakan kulit tumbuhan pinang puyuh, digunakan untuk dirajut menjadi rompi.Baju Sangkarut memiliki filosofi sebagai pembatas yang bisa melindungi pemakainya dari gangguan roh halus dan pengaruh orang jahat. Pada umumnya, baju ini digunakan dalam perang, dengan bahan-bahan azimat yang diyakini memberikan kekebalan terhadap senjata tajam atau senjata api. Lukisan, tempelan kulit trenggiling, kancing, uang logam, manik-manik, dan benda-benda azimat juga digunakan untuk menghias baju ini.',
         is_read: false,
       },
       {
         title: 'kingtompang',
-        img: '/public/img/kingtompang.png',
+        img: '/public/img/kingtompang.jpg',
         description: 'King Tompang merupakan pakaian adat yang memiliki sejarah penting dalam budaya masyarakat Kalimantan Barat. Busana ini memiliki warna dasar hitam, biru dan merah serta dihiasi dengan berbagai pola dan pita warna-warni yang membuatnya menarik. King Tompang terkenal di kalangan masyarakat Dayak dan sering digunakan. Meskipun desainnya sederhana, mereka sering dihiasi dengan dekorasi seperti benang dan pita warna-warni. Perpaduan ornamen tersebut membuat Raja Tompang terlihat unik, menarik dan cantik saat dikenakan.',
         is_read: false,
       },
@@ -78,7 +78,7 @@ export const data = [
     data: [
       {
         title: 'ulos karo',
-        img: '/public/img/uloskaro.png',
+        img: '/public/img/uloskaro.jpg',
         description: 'Pakaian adat suku Batak yang terkenal adalah kain adat khas Sumatera Utara. Ulos telah digunakan oleh masyarakat Batak sejak zaman dahulu dan memiliki filosofi yang mendalam terkait dengan kehidupan dan kehangatan tubuh. Laki-laki Batak memakai jas dengan bagian luar melilit badan, sedangkan perempuan memakai skizkebaya sebagai rok. Selain itu, juga digunakan sebagai selendang di bahu. Dalam Ulos terdapat aturan memberi dan menerima mengenai hubungan kekeluargaan, serta sifat dan nominalnya. Selain uis, ada juga uis tenun Kabupaten Karo yang proses pembuatannya mirip dengan uis namun dengan corak dan sejarah yang berbeda. Uis Karola memiliki warna dan motif yang berbeda, masing-masing dengan ceritanya sendiri. Pemanfaatan Karo Uis tidak terbatas pada upacara adat dan arak-arakan saja, tetapi sudah merambah ke dunia fashion dan aksesoris. ',
         is_read: false,
       },
@@ -90,7 +90,7 @@ export const data = [
       },
       {
         title: 'limpapeh rumah nan gadang',
-        img: '/public/img/limpapehrumahnangadang.png',
+        img: '/public/img/limpapehrumahnangadang.jpg',
         description: 'Pakaian adat Limpapeh Rumah Nan Gadang adalah pakaian tradisional yang digunakan di Sumatra Barat, terpengaruh oleh budaya Suku Minangkabau, Suku Mandailing, dan Suku Batak. Terdiri dari tengkuluk, baju batabue, minsie, sarung, dan salempang, pakaian ini memiliki motif dan corak yang terinspirasi dari kekayaan alam Sumatera. Aksesoris emas seperti kalung, gelang, dan cincin melengkapi pakaian adat ini. Limpapeh Rumah Nan Gadang melambangkan pentingnya peran ibu dalam masyarakat Minangkabau, yang bertanggung jawab terhadap pendidikan anak-anak dan keluarganya.',
         is_read: false,
       },
@@ -110,19 +110,19 @@ export const data = [
     data: [
       {
         title: 'labbu',
-        img: '/public/img/labbu.png',
+        img: '/public/img/labbu.jpg',
         description: 'Baju Labbu adalah pakaian adat khas Sulawesi Selatan yang awalnya digunakan oleh wanita bangsawan di kerajaan Luwu. Namun, saat ini baju Labbu dapat digunakan oleh semua wanita dalam berbagai acara adat atau pernikahan. Pakaian ini memiliki desain unik dengan lengan panjang dan ketat, serta menggunakan kain sutra tipis dan sarung lipa sebagai bawahan. Selain itu, baju Labbu juga memiliki motif seperti corak bunga pada bagian dada dan lengan.',
         is_read: false,
       },
       {
         title: 'bodo',
-        img: '/public/img/bodo.png',
+        img: '/public/img/bodo.jpg',
         description: 'Pakaian Bodo adalah pakaian adat suku Bugis Sulawesi Selatan. Desainnya unik dengan bentuk persegi dan lengan pendek. Warna pakaian Bodo memberikan informasi tentang usia dan status pemakainya. Terbuat dari kain muslim yang nyaman dipadukan dengan sarung kotak-kotak. ',
         is_read: false,
       },
       {
         title: 'pokko',
-        img: '/public/img/pokko.png',
+        img: '/public/img/pokko.jpg',
         description: 'Baju pokko merupakan pakaian adat suku Toraja Sulawesi Selatan yang umumnya dikenakan oleh kaum wanita. Baju ini memiliki lengan pendek dan warna-warna berani seperti kuning, merah dan putih. Asesoris seperti perhiasan dan manik-manik sering dipakai dan manik-manik diletakkan di dada. Pakaian pokko juga memiliki gelang dan ikat kepala atau ikat pinggang yang disebut kandure. Umumnya, pakaian Pokko hanya dikenakan pada acara-acara resmi. ',
         is_read: false,
       },
@@ -156,13 +156,13 @@ export const data = [
     data: [
       {
         title: 'batik bali',
-        img: '/public/img/batikbali.png',
+        img: '/public/img/batikbali.jpg',
         description: 'Batik Bali merupakan hasil penyebaran batik dari Pulau Jawa ke Bali. Masyarakat Bali memiliki keahlian seni yang tinggi, sehingga batik berkembang dengan pesat di sana. Motif batik Bali terinspirasi dari lingkungan alam dan budaya Bali, serta pengaruh dari daerah lain. Motifnya bervariasi, antara lain Sekar Jagad Bali, Teratai Banji, dan Poleng Biru. Batik Bali digunakan dalam berbagai keperluan, termasuk upacara adat, kehidupan sehari-hari, dan sebagai cinderamata wisatawan. Batik Bali memiliki ciri khas seperti aksen yang berbeda-beda, perpaduan motif tradisional dan modern, inspirasi dari kisah para Dewa, perpaduan budaya asli dan luar, penggunaan pewarna alami, dan penggunaan kain mori yang lebih berat.',
         is_read: false,
       },
       {
         title: 'baju Safari',
-        img: '/public/img/adatdharma.png',
+        img: '/public/img/safari.jpeg',
         description: 'Baju safari, yang umumnya memiliki nuansa putih atau pola tertentu, merupakan pakaian adat yang dikenakan dengan tambahan selempang dan hiasan kepala tradisional yang disebut udeng. Kamben pada baju safari dikemas dengan cara yang berbeda antara pria dan wanita. Pada pria, kamben dikenakan di pinggang dengan lipatan di bagian depan, sementara pada wanita, kamben dibungkus erat-erat untuk memastikan tidak ada lipatan atau renda terlihat. Selain itu, baju safari juga dilengkapi dengan saku yang ditempatkan di sisi kiri atau kanan. Dengan ciri-ciri uniknya, baju safari menciptakan kesan yang khas dan memikat bagi mereka yang mengenakannya.',
         is_read: false,
       },
