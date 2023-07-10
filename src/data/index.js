@@ -20,7 +20,7 @@ export const data = [
       },
       {
         title: 'batik kawung',
-        img: '/public/img/batikkawung.png',
+        img: '/public/img/batikkawung.jpg',
         description: 'Batik kawung berasal dari Daerah Istimewa yogyakarta..  Batik kawung diyakini diciptakan pada masa salah satu sultan kerajaan mataram pada abad ke 13 dipulau jawa. Motif ini juga ditemukan pada ukiran dinding candi pada beberapa tempat di jawa. Batik ini digunakan hanya untuk keluarga keraton, namun saat ini ditinggalkan saat kerajaan mataram terbagi menjadi dua. Motif dari batik kawung berbentuk irisan buah kolang-kaling, motif ini bermakna segala tindakan dilakukan dilakukan untuk kebaikan dan tidak perlu mengumbarnya. Motif bunga teratai pada batik kawung mengisyaratkan kesucian dan umur yang panjang. Sisi Lain motif kawung bermakna supaya manusia bisa menjadi sosok manusia yang ideal dan unggul. Motif batik kawung dibagi menjadi 3 bagian yaitu , awung Picis, kawung Bribil, dan kawung Sen.',
         is_read: false,
       },
