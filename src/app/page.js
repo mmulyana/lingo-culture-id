@@ -4,7 +4,6 @@ import Banner from '@/components/Banner'
 import Card from '@/components/Card'
 import Strike from '@/components/Strike'
 import { data } from '@/data'
-import Image from 'next/image'
 
 export default function Home() {
   return (

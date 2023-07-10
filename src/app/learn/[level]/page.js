@@ -15,8 +15,7 @@ export default function Page({ params }) {
     if (typeof window !== undefined) {
       const local = localStorage.getItem('LOCAL')
       if (local) {
-        console.log(local)
-        // setDataLocal(data)
+        setDataLocal(data)
       } else {
         localStorage.setItem('LOCAL', data)
       }
@@ -41,8 +40,23 @@ export default function Page({ params }) {
         <p className='mt-2 text-slate-500'>{detail?.data[index].description}</p>
         <button onClick={() => {
           if(index === detail.data.length - 1) {
+            let local = localStorage.getItem('LEVEL')
+            if(local) {
+              let tmp = Number(local) + 1
+              console.log(tmp)
+              localStorage.setItem('LEVEL', tmp)
+            } else {
+              localStorage.setItem('LEVEL', 1)
+            }
             router.push('/')
           } else {
+            let local = localStorage.getItem('POIN')
+            if(local) {
+              let tmp = Number(local) + 1
+              localStorage.setItem('POIN', tmp)
+            } else {
+              localStorage.setItem('POIN', 1)
+            }
             setIndex(prev => prev + 1)
           }
         }} className='mt-4 rounded-xl px-6 py-2 bg-indigo-500 text-white shadow-[0_4px_0_0_rgb(67,56,202)]'>Selesai Baca</button>
