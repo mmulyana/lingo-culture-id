@@ -3,10 +3,15 @@ import Image from 'next/image'
 import img from 'public/img/strike.png'
 import { useEffect, useState } from 'react'
 import ProgressBar from './ProgressBar'
+import Finish from './Finish'
+import useSound from 'use-sound'
+import music from './tamat.mp3'
 
 export default function Strike() {
+  const [play, { stop }] = useSound(music)
   const [poin, setPoin] = useState(0)
   const [level, setLevel] = useState(0)
+  const [finish, setFinish] = useState(false)
   useEffect(() => {
     const num = localStorage.getItem('POIN')
     if (num) {
@@ -26,12 +31,26 @@ export default function Strike() {
   }, [])
 
   return (
-    <div className='h-fit bg-gray-100 rounded-xl mt-8 sticky top-4 right-4 duration-200 ease-in p-4 pb-5'>
-      <div className='flex gap-3 items-center'>
-        <Image src={img} width={32} />
-        <p className='text-2xl font-semibold text-amber-500'>{poin}</p>
+    <div className='h-fit mt-8 sticky top-4 right-4 duration-200 ease-in'>
+      <div className='bg-gray-100 rounded-xl p-4 pb-5'>
+        <div className='flex gap-3 items-center'>
+          <Image src={img} width={32} />
+          <p className='text-2xl font-semibold text-amber-500'>{poin}</p>
+        </div>
+        <ProgressBar num={level} />
       </div>
-      <ProgressBar num={level} />
+      {level === '6' ? !finish && (
+        <button
+          onClick={() => {
+            play()
+            setFinish(true)
+          }}
+          className='rounded-lg w-full mt-4 px-6 py-2 bg-indigo-500 text-white shadow-[0_4px_0_0_rgb(67,56,202)]'
+        >
+          Tamat
+        </button>
+      ): null}
+      {!!finish && <Finish />}
     </div>
   )
 }

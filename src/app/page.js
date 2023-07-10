@@ -2,6 +2,7 @@
 
 import Banner from '@/components/Banner'
 import Card from '@/components/Card'
+import Finish from '@/components/Finish'
 import Strike from '@/components/Strike'
 import { data } from '@/data'
 
