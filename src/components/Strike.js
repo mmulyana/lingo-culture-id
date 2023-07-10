@@ -12,6 +12,7 @@ export default function Strike() {
   const [poin, setPoin] = useState(0)
   const [level, setLevel] = useState(0)
   const [finish, setFinish] = useState(false)
+
   useEffect(() => {
     const num = localStorage.getItem('POIN')
     if (num) {
@@ -39,18 +40,30 @@ export default function Strike() {
         </div>
         <ProgressBar num={level} />
       </div>
-      {level === '6' ? !finish && (
-        <button
-          onClick={() => {
-            play()
-            setFinish(true)
-          }}
-          className='rounded-lg w-full mt-4 px-6 py-2 bg-indigo-500 text-white shadow-[0_4px_0_0_rgb(67,56,202)]'
-        >
-          Tamat
-        </button>
-      ): null}
-      {!!finish && <Finish />}
+      {level === '6'
+        ? !finish && (
+            <button
+              onClick={() => {
+                play()
+                setFinish(true)
+              }}
+              className='rounded-lg w-full mt-4 px-6 py-2 bg-indigo-500 text-white shadow-[0_4px_0_0_rgb(67,56,202)]'
+            >
+              Tamat
+            </button>
+          )
+        : null}
+      <button
+        onClick={() => {
+          localStorage.removeItem('LEVEL')
+          localStorage.removeItem('POIN')
+          location.reload()
+        }}
+        className='block ml-auto px-2 hover:bg-gray-100 text-indigo-500 font-semibold text-mt mt-4'
+      >
+        Reset
+      </button>
+      {!!finish && <Finish stop={stop} setFinish={setFinish} />}
     </div>
   )
 }
